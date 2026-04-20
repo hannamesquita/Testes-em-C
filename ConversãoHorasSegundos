@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int ss, mm, hh;
+    int segundos;
+
+    scanf("%d:%d:%d", &hh, &mm, &ss);
+
+    segundos = ss + (60 * mm) + (3600 * hh);
+
+    printf("%d", segundos);
+
+    return 0;
+}
